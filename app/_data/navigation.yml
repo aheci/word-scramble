@@ -1,0 +1,31 @@
+logo:
+  filename: #TODO:  Add site info
+  alttext: #TODO:  Add site info
+cta:
+  primary:
+    text: Apply
+    url: /start-your-application/
+  secondary:
+    text: Get More Info
+    url: "#"
+phone: #TODO:  Add site info
+main:
+  - title: Programs
+    url: /programs/
+footer:
+  logo: #TODO:  Add site info
+  alttext: "#TODO:  Add footer logo alt"
+  headinggroup:
+  - heading: Programs
+    url: "#"
+    items:
+      - title: Browse Programs
+        url: "#"
+  brand:
+    social:
+      - icon: ico-twitter.svg
+        url: "#"
+      - icon: ico-facebook.svg
+        url: "#"
+      - icon: ico-google.svg
+        url: "#"

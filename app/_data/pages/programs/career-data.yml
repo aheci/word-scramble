@@ -1,0 +1,24 @@
+#TODO:  Add real data, this is included for example format
+careers:
+  - vertical: #include vertical name that relates to this data
+    top-companies:
+      title: Top Hiring Companies of 2015*
+      items:
+        - company: Unitedhealth Group
+          volume: 10683 jobs posted
+        - company: JPMorgan Chase & Co.
+          volume: 10388 jobs posted
+        - company: Systems Technology International, Inc
+          volume: 10067 jobs posted
+        - company: Deloitte
+          volume: 6894 jobs posted
+        - company: Oracle
+          volume: 6485 jobs posted
+    job-growth:
+      title: Projected Total Jobs by 2024**
+      items:
+      - title: Management analysts
+        total: 861,400
+      - title: Administrative services managers
+        total: 310,800
+disclaimer: #"disclaimer text to display below career data"

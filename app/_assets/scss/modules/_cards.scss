@@ -1,0 +1,24 @@
+.letter-card{
+  display: inline-block;
+  margin-right: 10px;
+  text-transform: uppercase;
+  width: 55px;
+  text-align: center;
+  border: 2px solid $gray-lighter;
+}
+.letter-card--selected{
+  border: 2px solid $gray;
+}
+.time-warning{
+  color: red;
+}
+.word-list{
+  column-count: 2;
+}
+.entry-field{
+  padding:10px;
+  width:100%;
+  outline: none;
+  border: 2px solid $gray;
+  border-radius: 6px;
+}

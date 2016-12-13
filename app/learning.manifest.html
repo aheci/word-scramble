@@ -1,0 +1,18 @@
+---
+layout: null
+sitemap:
+ exclude: 'yes'
+---
+CACHE MANIFEST
+# {{ 'now' | date: "%B %-d, %Y %H:%m:%s"  }}
+# html files {% for page in site.pages %} {% unless page.sitemap.exclude == "yes" %}
+{{ page.url }} {% endunless %} {% endfor %}  {% for page in site.about %} {% unless page.sitemap.exclude == "yes" %}
+{{ page.url }} {% endunless %} {% endfor %} {% for page in site.contact %} {% unless page.sitemap.exclude == "yes" %}
+{{ page.url }} {% endunless %} {% endfor %}
+
+# Resources that require the user to be online.
+NETWORK:
+*
+
+FALLBACK:
+*

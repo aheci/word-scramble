@@ -1,0 +1,60 @@
+#TODO: Add form info & mapping here below is sample
+getinfomapping:
+  default: "Marketo_GetMoreInfo"
+  overrides:  #TODO:  Any pages that do not pull out the default form add here
+    - page: text
+      form: Marketo_FinancialAid
+    - page: components
+      form: Marketo_LearnMore
+    - page: blog
+      form: Marketo_FinancialAid
+forms:
+  - programguide:
+    code:
+    dataid: Marketo_GetMoreInfo
+    file: "mkto-program-guide.html"
+    mktoid: #TODO:  get ID
+    mktotestid: #TODO: get ID
+    id: "getProgramGuide"
+    image: img-program-guide.png
+    mobileimage:
+    alttext: program guide image
+    heading: Get the program guide
+    description: >
+      If you are ready to learn more about our programs, get started by
+      downloading our program guide now.
+  - financialguide:
+    code:
+    dataid: Marketo_FinancialAid
+    file: "mkto-fin-aid.html"
+    mktoid: #TODO:  get ID
+    mktotestid: #TODO: get ID
+    id: "getFinanceGuide"
+    image: img-financial-aid-guide.png
+    mobileimage:
+    alttext: program guide image
+    heading: Get the Financial Aid Guide
+    description: >
+      Discover different ways to pay for college, and learn more about the
+      FAFSA process.
+  - learnmore:
+    code:
+    dataid: Marketo_LearnMore
+    file: "mkto-learn-more.html"
+    mktoid: #TODO:  get ID
+    mktotestid: #TODO: get ID
+    id: "learnMore"
+    image: img-program-guide.png
+    mobileimage:
+    alttext: program guide image
+    heading: Learn More
+    description: >
+      Discover Florida Tech’s rich history of innovation and excellence, and
+      learn more about degree program offerings, tuition and the advantages of
+      online learning.
+thankyou:
+  image: ico-confirm.svg
+  id: "thankYou"
+  heading: Thank You!
+  description: >
+      An enrollment services representative will contact you shortly.

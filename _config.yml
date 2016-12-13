@@ -1,0 +1,50 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: word-scramble
+description:
+facebook:
+twitter:
+author:
+  name: Amanda
+  email: amanda.hecimovich@yahoo.com
+baseurl: ''
+asseturl: ''
+
+# Persistent Nav Pages
+# collections:
+#   about:
+#     output: true
+#     permalink: /about/:path/
+#   contact:
+#     output: true
+#     permalink: /contact/:path/
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess', '_pages']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+permalink: none
+
+# Markdown library
+markdown: redcarpet
+# pygments:

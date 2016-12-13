@@ -1,0 +1,43 @@
+#TODO:  Enter real data, below is sample for format.  MUST have atleast next 6
+terms:
+  - year: 2016-2017
+    details:
+    - title: FALL 2 – 2016
+      startdate: 10/24/2016
+      enrollmentdeadline: 10/12/2016
+    - title: SPRING 1 – 2017
+      startdate: 1/9/2017
+      enrollmentdeadline: 12/28/2016
+    - title: SPRING 2 – 2017
+      startdate: 3/6/2017
+      enrollmentdeadline: 2/22/2017
+    - title: "SUMMER 1 – 2017"
+      startdate: 5/1/2017
+      enrollmentdeadline: 4/19/2017
+    - title: SUMMER 2 – 2017
+      startdate: 7/3/2017
+      enrollmentdeadline: 6/21/2017
+    - title: FALL 1 – 2017
+      startdate: 8/28/2017
+      enrollmentdeadline: 8/16/2017
+    - title: FALL 2 - 2017
+      startdate: 10/23/2017
+      enrollmentdeadline: 10/11/2017
+    - title: SPRING 1 - 2018
+      startdate: 1/8/2018
+      enrollmentdeadline: 12/27/2017
+    - title: SPRING 2 - 2018
+      startdate: 3/5/2018
+      enrollmentdeadline: 2/21/2018
+    - title: SUMMER 1 - 2018
+      startdate: 4/30/2018
+      enrollmentdeadline: 4/18/2018
+    - title: SUMMER 2 - 2018
+      startdate: 7/2/2018
+      enrollmentdeadline: 6/20/2018
+    - title: FALL 1 - 2018
+      startdate: 8/27/2018
+      enrollmentdeadline: 8/15/2018
+    - title: FALL 2 - 2018
+      startdate: 10/22/2018
+      enrollmentdeadline: 10/10/2018

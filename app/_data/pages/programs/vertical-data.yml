@@ -1,0 +1,13 @@
+#TODO:  Add real data, this is included for example format
+verticals: #example format
+  # - verticalname: this will display in all references to this vertical
+  #   overview: "main text to display on vertical page"
+  #   videoname: "name of video"
+  #   videourl: inline embed code from vidyard related to this vertical
+  #   imagename: hero image for this vertical
+  #   blogimagename: blog hero image for this vertical
+  #   thumbnailimg: placeholder
+  #   icon: file name of svg for this vertical to display on home page next to vert name
+  #   url: /vertical/  <-- url for this vertical
+  #   heroheading: Text to go in the hero on this vertical page
+  #   blogcategory: Blog category to link to on vertical page

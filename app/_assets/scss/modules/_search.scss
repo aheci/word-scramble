@@ -1,0 +1,17 @@
+// Search module
+
+.search {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.search-results {
+  right: 0;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  font-size: .9rem;
+  &:empty {
+    display: none;
+  }
+}

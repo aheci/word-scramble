@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- <html lang="en" class="no-js" manifest="/ux-frontend.manifest.html"> -->
+<html lang="en" class="no-js">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <title>{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+      <meta name="description" content="{% if page.title != 'Home' %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
+      <meta name="keywords" content="{% for keyword in site.data.keywords %}{{ keyword }}, {% endfor %}">
+      <!-- Open Graph -->
+      <meta property="og:locale" content="en_US">
+      <meta property="og:url" content="http://www.{{site.baseurl}}">
+      <meta property="og:site_name" content="{{ site.name }}">
+      <meta property="og:title" content="{{ page.title }}">
+      <meta property="og:description" content="{% if page.title != 'Home' %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
+      <meta property="og:image" content="{% if page.cover %}{{ site.asseturl }}/img/{{ page.cover }}.jpg{% else %}content{% endif %}">
+      <meta property="og:type" content="wesbite">
+      <meta property="article:author" content="https://www.facebook.com/{{ site.facebook }}">
+
+      <!-- Twitter Card -->
+      <meta property="twitter:site" content="@{{ site.twitter }}">
+      <meta property="twitter:creator" content="@{{ site.twitter }}">
+      <meta property="twitter:card" content="summary">
+      <meta property="twitter:title" content="{{ site.title }}">
+      <meta property="twitter:description" content="{% if page.title != 'Home' %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
+      <meta property="twitter:image" content="{% if page.cover %}{{ site.asseturl }}/img/{{ page.cover }}.jpg{% endif %}">
+
+      <!-- Icons -->
+      <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+      <link rel="apple-touch-icon" href="{{ site.baseurl }}/img/apple-touch-icon.png">
+
+        <!-- build:css({app,.tmp}) /css/main.css -->
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <!-- endbuild -->
+
+        <!-- header scipting jquery to handle on page scripting-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+    <body>
+      <!--[if lt IE 8]>
+        <p class="alert alert-danger text-xs-center" role="alert">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank" title="Upgrade your browser at Browsehappy.com"  data-metric="Alert" data-matric-page="Browse Happy"  >upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <a class="sr-only sr-only-focusable btn btn-default" href="#content">Skip to main content</a>
+      <!-- include marketo forms -->
+
+
+
+      {{ content }}
+
+      {% include scripts.html %}
+
+
+
+    </body>
+</html>

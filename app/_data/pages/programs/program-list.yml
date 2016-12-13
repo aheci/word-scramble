@@ -1,0 +1,58 @@
+standardlayout: #used to generate a page for each listed program
+  overview:
+    #BELOW is format needed for each program and a note on what the field is for.  Required fields are noted with *
+    #- permalink: */vertical/program-name/
+      #degree:  degree type (bachelor's associate's certificate mba masters)
+        #- degree 1
+        #- degree 2
+      #title: metadata title
+      #display-title:  how to list it on the program filter page, vertical page, and specialty secitons
+      #description: metadata description
+      #keywords: metadata keywords
+      #bisk-id: *enter bisk id for this program
+      #verticals: *
+        #- vertical 1
+        #- vertical 2
+      #weeksperclass:  *enter total number of weeks for the classes in this program
+      #yearstocomplete: *how long will it take to complete this degree?  integer only
+      #creditsperclass: *how many credits per class for this degree
+      #heroimg: *file name of image for this programs hero
+      #thumbnailimg: *file name of image for this programs thumbnail (on program filter page)
+      #parentprogram: bisk-id for parent program if this is a concentration or specialty
+      #childis: specialties or concencentations <- this word will appear on the vertical cards and in the title of the specialization section
+
+  curriculum:
+    #BELOW is format needed for each program and a note on what the field is for.  Required fields are noted with *
+    #- permalink: */vertical/program-name/
+      #title: metadata title
+      #description: metadata description
+      #keywords: metadata keywords
+      #bisk-id: *enter bisk id for this program
+
+
+  requirements:
+    #BELOW is format needed for each program and a note on what the field is for.  Required fields are noted with *
+    #- permalink: */vertical/program-name/
+      #title: metadata title
+      #description: metadata description
+      #keywords: metadata keywords
+      #bisk-id: *enter bisk id for this program
+
+customlayout: #this section is a last resort to use for programs that have a completely uniq layout and cannot be auto generated.  THINK THIS THRU before using
+    #BELOW is format needed for each program and a note on what the field is for.  Required fields are noted with *
+    #- permalink: */vertical/program-name/
+      #title: metadata title
+      #description: metadata description
+      #keywords: metadata keywords
+      #bisk-id: *enter bisk id for this program
+      #verticals: *
+        #- vertical 1
+        #- vertical 2
+      #weeksperclass:  *enter total number of weeks for the classes in this program
+      #yearstocomplete: *how long will it take to complete this degree?  integer only
+      #creditsperclass: *how many credits per class for this degree
+      #heroimg: *file name of image for this programs hero
+      #thumbnailimg: *file name of image for this programs thumbnail (on program filter page)
+      #url: *same as permalink without the first slash
+      #parentprogram: bisk-id for parent program if this is a concentration or specialty
+      #childis: specialties or concencentations <- this word will appear on the vertical cards and in the title of the specialization section
